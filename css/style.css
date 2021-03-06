@@ -305,7 +305,19 @@ html {
   font-size: 62.5%;
 }
 body {
+  font-family: "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  -webkit-text-size-adjust: 100%;
   background: url("https://file003.shop-pro.jp/PA01463/002/images/bg.jpg") repeat;
+}
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 13px;
+    font-size: 1.3rem;
+  }
 }
 @media screen and (max-width: 768px) {
   #wrap {
@@ -321,4 +333,12 @@ body {
   font-size: 22px;
   font-size: 2.2rem;
   border-bottom: solid 1px #b9966e;
+}
+#side .bor_t_1 {
+  border-top: 1px solid #e0e0e0;
+}
+#side .logo_are {
+  margin: -250px 0 0 0;
+  z-index: 99;
+  position: relative;
 }

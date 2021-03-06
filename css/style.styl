@@ -1,0 +1,81 @@
+@import "reset.styl"
+@import "_s_config.styl"
+@import "_s_mixin.styl"
+
+
+////////mix-in-------------------
+.fontBold
+    font-family "ヒラギノ角ゴ ProN W6"
+
+.fontNomarl
+    font-family "ヒラギノ角ゴ ProN W3"
+
+.inner
+    width 1140px
+    margin: 0 auto
+    +MQ_MAX(SP_RES_WID01)
+        width calc(100% - 20px);
+
+
+.slick-dots
+    bottom: 25px !important;
+.slick-prev:before,
+.slick-next:before
+    color: #000 !important;
+
+////////mix-in-------------------
+
+.btn_link
+    position relative
+    a
+        border: solid 1px #fff
+        padding: 30px 0
+        width 390px
+        display: block
+        text-align: center;
+        line-height: 1;
+        fontSize(22)
+        background: #ef4a1c
+        color: #fff
+        margin: 0 auto
+        border:solid 1px #ef4a1c
+        @extend .fontBold
+        
+        +MQ_MAX(SP_RES_WID01)
+            width 100%
+        &:hover
+            background: #fff
+            color: #ef4a1c
+            border:solid 1px #ef4a1c
+    &_allow
+        padding: 0;
+        vertical-align: top;
+        margin: 5px;
+    &:hover
+        .desvg path
+            stroke: #ef6c42;
+            //fill: currentColor;                            
+        &:after
+            opacity 0
+
+
+
+html
+    font-size: 62.5%;
+body
+    // font-size: 16px;
+    // font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, "メイリオ", Osaka, MS PGothic, arial, helvetica, sans-serif;
+    background: url(https://file003.shop-pro.jp/PA01463/002/images/bg.jpg) repeat;
+    
+#wrap
+    +MQ_MAX(SP_RES_WID01)
+       width 100%
+#instagram-feed1
+    margin: 0 -200%;
+    padding: 40px 200%;
+    background: #B99B48;
+
+#side
+    h3
+        fontSize(22)
+        border-bottom: solid 1px #B9966E

@@ -67,23 +67,169 @@ body
     // font-size: 16px;
     // font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, "メイリオ", Osaka, MS PGothic, arial, helvetica, sans-serif;
     background: url(https://file003.shop-pro.jp/PA01463/002/images/bg.jpg) repeat;
-    
-#wrap
-    +MQ_MAX(SP_RES_WID01)
-       width 100%
-#instagram-feed1
-    margin: 0 -200%;
-    padding: 40px 200%;
-    background: #B99B48;
+.bx-wrapper
+    margin-bottom: 0 !important; 
+    .bx-viewport
+        border: none !important;
+        left: auto !important;
+        box-shadow: none !important;
+    .bx-pager
+        padding-top: 10px !important; 
+        bottom: 20px !important; 
 
+#wrapper
+    margin: 0 auto
+    // +MQ_MAX(SP_RES_WID01)
+    //    //width 100%
+    .container
+        margin: 0 auto
+.full
+    overflow: hidden
+    width: 100vw
+// #instagram
+//     &-feed1
+.instagram_wrap
+    background: #B99B48
+.instagram
+    &_box
+        margin: 0 auto;
+        padding: 40px 0;
+        background: #b99b48;
+        color: #000;
+        width: 1000px;
+    &_tit
+        fontSize(11)
+        text-align: center
+        &:after
+            content: ""
+            display: block
+            width 28px
+            height: 2px
+            background: #000
+            margin: 15px auto 25px
+    &_more
+        display: flex
+        justify-content: space-between;
+        &_prof
+            fontSize(14)
+        &_btn
+            fontSize(15)
+    &_sns_box
+        border-top: solid 1px #262525 
+        border-bottom: solid 1px #262525 
+        padding: 30px 0
+        margin: 30px 0 0
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        li
+            padding: 0 20px
+            a
+                &:hover
+                    opacity .7
+
+.footer_wrap
+    background: #333333
+#footer
+    margin: 0 auto;
+    padding: 50px 0 20px
+    background: #333333
+    color: #fff
+    width 1000px
+    text-align: center
+    ul
+        li
+            a
+                color: #fff
+                &:hover
+                    opacity .7
 #side
+    position: relative;
+    margin: 0 0 50px 0
     h3
         fontSize(22)
+        color: #1A1A1A
         border-bottom: solid 1px #B9966E
     .bor_t_1
         border-top 1px solid #E0E0E0
-    .logo_are
-        margin: -250px 0 0 0;
+    .logo_area
         z-index: 99;
         position: relative;
+    // .top
+    //     margin: -420px 0 0 0;
+    .menu_box
+        background: #fff
+        display: flex
+        padding: 0 0 40px
+        justify-content: center
+        margin: 0 0 45px
+        li
+            -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+            border-right: solid 1px #EBD6BD
+            fontSize(14)
+            padding: 0 14px
+            letter-spacing: 10px;
+            &:last-child
+                border-right: none
+            a
+                &:hover
+                    text-decoration: none
+                    opacity .7
+#contents
+    margin: 10px 0 50px 0;
+    .topicpath-nav
+        margin-top: 10px;
+    h2
+        fontSize(18)
+        color: #B9966E
+        border-bottom solid 1px #B9966E
+    .news_topic
+        fontSize(14)
+        background: #fff
+        border:solid 1px #DEDEDE
+        width 84px
+        padding: 8px 10px 4px;
+        border-radius: 8px;
+        &_box
+            border-left solid 1px #E0E0E0
+            border-bottom solid 1px #E0E0E0
+            margin: 0 0 30px 40px;
+            padding: 20px 0 15px 20px;
+            width: 640px;
+    .top
+        &_contents
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between;
+            margin: 25px 0 50px 0
+            &_list
+                width 320px
+                dl
+                    dd
+                        margin: 30px 0
+                        text-align: center
+                        fontSize(20)
+                p
+                    fontSize(14)
+                    margin: 0 0 30px 0
+                    text-align: justify
+                .link
+                    text-decoration: underline
+                    text-align: center
     
+#header
+    background: #262525
+    overflow: hidden;
+    margin: 0 -200%;
+    padding: 0 200%;
+    color: #fff
+    a
+        color: #fff
+    .global_menu
+        width: 720px;
+        float: right;
+
+.row
+    border-bottom: none 
+    margin: 0 0 0 0

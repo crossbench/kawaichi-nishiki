@@ -43,7 +43,7 @@
               <img src="https://img.shop-pro.jp/tmpl_img/73/noimage.png" alt="<{$recommend[num].name}>" class="show mar_auto mar_b_10" />
             <{/if}>
           </a>
-          <a href="<{$recommend[num].link_url}>"><{$recommend[num].name}></a>
+          <a href="<{$recommend[num].link_url}>"><{$recommend[num].name}></a><br>
           <{if $recommend[num].s_expl != ""}>
             <{$recommend[num].s_expl}>
           <{/if}>
@@ -78,7 +78,7 @@
               <img src="https://img.shop-pro.jp/tmpl_img/73/noimage.png" alt="<{$seller[num].name}>" class="show mar_auto mar_b_10" />
             <{/if}>
           </a>
-          <a href="<{$seller[num].link_url}>"><{$seller[num].name}></a>
+          <a href="<{$seller[num].link_url}>"><{$seller[num].name}></a><br>
           <{if $seller[num].s_expl != ""}>
             <{$seller[num].s_expl}>
           <{/if}>

@@ -68,14 +68,26 @@ body
     // font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Meiryo, "メイリオ", Osaka, MS PGothic, arial, helvetica, sans-serif;
     background: url(https://file003.shop-pro.jp/PA01463/002/images/bg.jpg) repeat;
 .bx-wrapper
+    width 100%
+    +MQ_MAX(SP_RES_WID01)
+        width 400px
     margin-bottom: 0 !important; 
     .bx-viewport
         border: none !important;
         left: auto !important;
         box-shadow: none !important;
+        #slider
+            & > div
+                +MQ_MAX(SP_RES_WID01)
+                    width 100% !important
     .bx-pager
         padding-top: 10px !important; 
-        bottom: 20px !important; 
+        bottom: 20px !important;
+    img
+        width 100%
+        +MQ_MAX(SP_RES_WID01)
+            width 100%
+            height: auto
 
 #wrapper
     margin: 0 auto
@@ -97,6 +109,8 @@ body
         background: #b99b48;
         color: #000;
         width: 1000px;
+        +MQ_MAX(SP_RES_WID01)
+            width calc(100% - 20px);
     &_tit
         fontSize(11)
         text-align: center
@@ -137,6 +151,8 @@ body
     color: #fff
     width 1000px
     text-align: center
+    +MQ_MAX(SP_RES_WID01)
+        width calc(100% - 20px);
     ul
         li
             a
@@ -155,14 +171,18 @@ body
     .logo_area
         z-index: 99;
         position: relative;
-    // .top
-    //     margin: -420px 0 0 0;
+        +MQ_MAX(SP_RES_WID01)
+            display: none
+    .top
+        margin: 35px 0 35px 0;
     .menu_box
         background: #fff
         display: flex
         padding: 0 0 40px
         justify-content: center
         margin: 0 0 45px
+        +MQ_MAX(SP_RES_WID01)
+            display: none
         li
             -ms-writing-mode: tb-rl;
             writing-mode: vertical-rl;
@@ -177,7 +197,7 @@ body
                     text-decoration: none
                     opacity .7
 #contents
-    margin: 10px 0 50px 0;
+    margin: 35px 0 50px 0;
     .topicpath-nav
         margin-top: 10px;
     h2
@@ -191,18 +211,22 @@ body
         width 84px
         padding: 8px 10px 4px;
         border-radius: 8px;
+        +MQ_MAX(SP_RES_WID01)
+            width calc(100% - 84px);
         &_box
             border-left solid 1px #E0E0E0
             border-bottom solid 1px #E0E0E0
             margin: 0 0 30px 40px;
             padding: 20px 0 15px 20px;
             width: 640px;
+            +MQ_MAX(SP_RES_WID01)
+                width calc(100% - 20px);
     .top
         &_contents
             display: flex
             flex-wrap: wrap
             justify-content: space-between;
-            margin: 25px 0 50px 0
+            margin: 0 0 50px 0
             &_list
                 width 320px
                 dl
@@ -221,14 +245,22 @@ body
 #header
     background: #262525
     overflow: hidden;
-    margin: 0 -200%;
-    padding: 0 200%;
+    // margin: 0 -200%;
+    // padding: 0 200%;
     color: #fff
     a
         color: #fff
     .global_menu
-        width: 720px;
-        float: right;
+        width: 960px;
+        margin: 0 auto
+        +MQ_MAX(SP_RES_WID01)
+            width calc(100% - 20px);
+        .bor_t_1
+            +MQ_MAX(SP_RES_WID01)
+                border: none;
+        .mar_t_30
+            +MQ_MAX(SP_RES_WID01)
+                margin-top: 0;
 
 .row
     border-bottom: none 

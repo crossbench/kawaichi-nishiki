@@ -1,21 +1,7 @@
 <div class="top_contents">
     <div class="top_contents_list">
-    <dl>
-        <dt><img src="https://crossbench.github.io/kawaichi-nishiki/images/bnr_top_img01.png" alt=""></dt>
-        <dd>こだわり</dd>
-    </dl>
-    <p>「河一商店」は、昭和30年の創業以来、65年にわたり京の台所・錦市場で青果店を営んでまいりました。
-「お客様の望んでいる以上のものを」</p>
-    <div class="link"><a href="#">詳しく見る</a></div>
-    </div>
-    <div class="top_contents_list">
-    <dl>
-        <dt><img src="https://crossbench.github.io/kawaichi-nishiki/images/bnr_top_img02.png" alt=""></dt>
-        <dd>こだわり</dd>
-    </dl>
-    <p>「河一商店」は、昭和30年の創業以来、65年にわたり京の台所・錦市場で青果店を営んでまいりました。
-「お客様の望んでいる以上のものを」</p>
-    <div class="link"><a href="#">詳しく見る</a></div>
+      <p><a href="https://hannari-k-bro.shop-pro.jp/?mode=f1"><img src="https://crossbench.github.io/kawaichi-nishiki/images/top_baner.jpg" alt=""></a></p>
+      <div class="link"><a href="https://hannari-k-bro.shop-pro.jp/?mode=f1">詳しく見る</a></div>
     </div>
 </div>
 

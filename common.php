@@ -96,7 +96,7 @@
                     <img src="https://img.shop-pro.jp/tmpl_img/73/noimage.png" alt="<{$history[num].name}>" class="show mar_auto mar_b_10" />
                   <{/if}>
                 </a>
-                <a href="<{$history[num].link_url}>"><{$history[num].name}></a>
+                <a href="<{$history[num].link_url}>"><{$history[num].name}></a><br>
                 <{if $history[num].s_expl != ""}>
                   <{$history[num].s_expl}>
                 <{/if}>

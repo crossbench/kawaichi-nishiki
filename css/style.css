@@ -445,6 +445,7 @@ body {
 #side .keyword {
   border: solid 1px #ccc;
   padding: 13px 16px;
+  width: 178px;
 }
 #side h3 {
   font-size: 22px;

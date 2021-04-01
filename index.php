@@ -65,15 +65,15 @@
   </div>
   <script type="text/javascript">
   //<![CDATA[
-  $(function(){
-  $('#slider').bxSlider({
-    auto: true,
-    pause: 2000,
-    speed: 4000,
-    controls: false,
-    captions: true,
-    mode: 'fade'
-  });
+  $(window).on('load',function(){
+    $('#slider').bxSlider({
+      auto: true,
+      pause: 2000,
+      speed: 4000,
+      controls: false,
+      captions: true,
+      mode: 'fade'
+    });
   });
   //]]>
   </script>

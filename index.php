@@ -333,7 +333,25 @@
 <div class="instagram_wrap full">
   <div class="instagram_box">
     <div class="instagram_tit">INSTAGRAM</div>
-    <div id="instagram-feed1" class="instagram_feed"></div>
+    <style>
+    .instagram__pic{
+      position: relative;
+    }
+    .instagram__pic::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    </style>
+    <div class="instagram__pic">
+      <!-- SnapWidget -->
+      <script src="https://snapwidget.com/js/snapwidget.js"></script>
+      <iframe src="https://snapwidget.com/embed/944950" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+    </div>
     <div class="instagram_more">
         <div class="instagram_more_prof">『京野菜・旬野菜・旬果物の愉しみ方』ご紹介させてもろてます</div>
         <div class="instagram_more_btn"><a href="https://www.instagram.com/kawaichi_nishiki/">もっとみる</a></div>

@@ -357,9 +357,8 @@
         <div class="instagram_more_btn"><a href="https://www.instagram.com/kawaichi_nishiki/">もっとみる</a></div>
     </div>
     <ul class="instagram_sns_box">
-      <li><a href="https://twitter.com/kawaiti_nisiki" target="_blank" rel="noopener noreferrer"><img src="https://kawaichi-nishiki.cross-bench.com/images/ico_sns_fb.svg" alt="facebook"></a></li> 
-      <li><a href="https://www.facebook.com/%E9%8C%A6-%E6%B2%B3%E4%B8%80-109880713962311/" target="_blank" rel="noopener noreferrer"><img src="https://kawaichi-nishiki.cross-bench.com/images/ico_sns_tw.svg" alt="twitter"></a></li> 
-      <li><a href="https://www.instagram.com/kawaichi_nishiki/" target="_blank" rel="noopener noreferrer"><img src="https://kawaichi-nishiki.cross-bench.com/images/ico_sns_in.svg" alt="facebook"></a></li> 
+      <li><a href="https://www.facebook.com/%E9%8C%A6-%E6%B2%B3%E4%B8%80-109880713962311/" target="_blank" rel="noopener noreferrer"><img src="https://kawaichi-nishiki.cross-bench.com/images/ico_sns_fb.svg" alt="facebook"></a></li> 
+      <li><a href="https://www.instagram.com/kawaichi_nishiki/" target="_blank" rel="noopener noreferrer"><img src="https://kawaichi-nishiki.cross-bench.com/images/ico_sns_in.svg" alt="instagram"></a></li> 
     </ul>
   </div><!-- instagram_box -->
 </div>
